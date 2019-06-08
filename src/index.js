@@ -2,7 +2,7 @@
  * The entry point
  */
 
-import App from './components/app'
+import App from './components/app/app'
 
 window.addEventListener('load', () => {
     const app = new App(document.getElementById('app'))
